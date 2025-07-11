@@ -51,14 +51,14 @@ jobs:
         echo "src-git luci1 https://github.com/jjm2473/luci.git" >> ./feeds.conf.default
         echo "src-git routing1 https://github.com/openwrt/routing.git" >> ./feeds.conf.default
         echo "src-git telephony1 https://github.com/openwrt/telephony.git" >> ./feeds.conf.default
-        echo "src-git store https://github.com/linkease/istore.git" >> ./feeds.conf.default
-        echo "src-git third https://github.com/jjm2473/openwrt-third.git" >> ./feeds.conf.default
-        echo "src-git third_party https://github.com/linkease/istore-packages.git" >> ./feeds.conf.default
-        echo "src-git diskman https://github.com/jjm2473/luci-app-diskman.git" >> ./feeds.conf.default
-        echo "src-git oaf https://github.com/jjm2473/OpenAppFilter.git" >> ./feeds.conf.default
-        echo "src-git linkease_nas https://github.com/linkease/nas-packages.git" >> ./feeds.conf.default
-        echo "src-git linkease_nas_luci https://github.com/linkease/nas-packages-luci.git" >> ./feeds.conf.default
-        echo "src-git jjm2473_apps https://github.com/jjm2473/openwrt-apps.git" >> ./feeds.conf.default
+        echo "src-git store1 https://github.com/linkease/istore.git" >> ./feeds.conf.default
+        echo "src-git third1 https://github.com/jjm2473/openwrt-third.git" >> ./feeds.conf.default
+        echo "src-git third_party1 https://github.com/linkease/istore-packages.git" >> ./feeds.conf.default
+        echo "src-git diskman1 https://github.com/jjm2473/luci-app-diskman.git" >> ./feeds.conf.default
+        echo "src-git oaf1 https://github.com/jjm2473/OpenAppFilter.git" >> ./feeds.conf.default
+        echo "src-git linkease_nas1 https://github.com/linkease/nas-packages.git" >> ./feeds.conf.default
+        echo "src-git linkease_nas_luci1 https://github.com/linkease/nas-packages-luci.git" >> ./feeds.conf.default
+        echo "src-git jjm2473_apps1 https://github.com/jjm2473/openwrt-apps.git" >> ./feeds.conf.default
         echo "src-git nikki https://github.com/nikkinikki-org/OpenWrt-nikki.git;main" >> ./feeds.conf.default
         echo "src-git ddns_go https://github.com/sirpdboy/luci-app-ddns-go.git" >> ./feeds.conf.default        
         
