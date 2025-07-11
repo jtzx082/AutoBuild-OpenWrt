@@ -46,7 +46,7 @@ jobs:
       run: |
         git clone --depth 1 $REPO_URL -b $REPO_BRANCH openwrt
         cd openwrt
-        echo "src-git ssrp https://github.com/fw876/helloworld.git" >> ./feeds.conf.default
+        #echo "src-git ssrp https://github.com/fw876/helloworld.git" >> ./feeds.conf.default
         echo "src-git packages https://github.com/jjm2473/packages.git" >> ./feeds.conf.default
         echo "src-git luci https://github.com/jjm2473/luci.git" >> ./feeds.conf.default
         echo "src-git routing https://github.com/openwrt/routing.git" >> ./feeds.conf.default
